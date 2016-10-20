@@ -1,0 +1,4 @@
+ipython>=5.1.0
+notebook>=4.2.3
+pyzmq==16.0.0
+tornado
