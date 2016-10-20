@@ -1,14 +1,9 @@
-name: nbconvert_docs
+name: example_env
 channels:
   - conda-forge
 dependencies:
 - python=3
-- pandoc
-- nbformat
-- jupyter_client
+- notebook
 - ipython
-- sphinx>=1.3.6
-- sphinx_rtd_theme
-- entrypoints
 - pip:
-    - nbsphinx
+    - nbval
